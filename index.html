@@ -10,8 +10,8 @@
 </head>
 
 <body>
-
-    <nav class="border fixed split-nav">
+<div>
+    <nav class="border split-nav">
         <div class="nav-brand">
             <h3><a href=" ">Manyuet</a ></h3>
         </div>
@@ -24,10 +24,12 @@
             </div>
         </div>
     </nav>
-    <div style="margin: 100px;display: flex">
-         <div class="card" style="width: 20rem;margin-right: 20px">
+</div>
+<h4 class="article-title" style="margin-left: 100px">My Projects</h4>
+        <div style="margin: 0 100px;display: flex">
+         <div class="card" style="flex:1;width: 20rem;margin-right: 20px">
             <div class="card-body">
-                <h4 class="card-title">电影网站</h4>
+                <h4 class="card-title">电影网站 <span class="badge warning">html&css</span></h4>
                 <h5 class="card-subtitle">纯HTML,CSS实现的电影网站.</h5>
                 <p class="card-text">入门学习HTML，CSS</p >
                 <button><a class="card-link" href="http://47.100.26.233/movie-6v/" target="_blank">立即查看</a ></button>
@@ -35,9 +37,9 @@
                     target="_blank">Github地址</a >
             </div>
         </div>
-        <div class="card" style="width: 20rem;margin-right: 20px">
+        <div class="card" style="flex:1;width: 20rem;margin-right: 20px">
             <div class="card-body">
-                <h4 class="card-title">Todo-List1.0</h4>
+                <h4 class="card-title">Todo-List1.0 <span class="badge secondary">javascript</span></h4>
                 <h5 class="card-subtitle">纯JS实现的Todo-list.</h5>
                 <p class="card-text">支持添加任务，完成任务等</p >
                 <button><a class="card-link" href="http://47.100.26.233/todo-list/" target="_blank">立即查看</a ></button>
@@ -45,9 +47,9 @@
                     target="_blank">Github地址</a >
             </div>
         </div>
-        <div class="card" style="width: 20rem;">
+        <div class="card" style="flex:1;width: 20rem;">
             <div class="card-body">
-                <h4 class="card-title">简易计算器</h4>
+                <h4 class="card-title">简易计算器 <span class="badge secondary">javascript</span></h4>
                 <h5 class="card-subtitle">纯JS实现的简易计算器.</h5>
                 <p class="card-text">支持加减乘除等操作</p >
                 <button><a class="card-link" href="http://47.100.26.233/calculator/src/"
@@ -57,6 +59,41 @@
             </div>
         </div>
     </div>
+<div style="margin: 100px;display: flex">
+    <div class="card" style="flex:1;width: 20rem;margin-right: 20px">
+        <div class="card-body">
+            <h4 class="card-title">Todo-List2.0  <span class="badge success">vue.js</span></h4>
+            <h5 class="card-subtitle">Vue.js实现的Todo-List</h5>
+            <p class="card-text">利用Vue.js重构Todo-List1.0</p >
+            <button><a class="card-link" href="http://47.100.26.233:3000"
+                       target="_blank">立即查看</a ></button>
+            <a class="card-link" style="margin-left: 20px" href="https://github.com/manyuet/vue-todo-list"
+               target="_blank">Github地址</a >
+        </div>
+    </div>
+    <div class="card" style="flex:1;width: 20rem;margin-right: 20px">
+        <div class="card-body">
+            <h4 class="card-title">小米商城 <span class="badge success">vue.js</span></h4>
+            <h5 class="card-subtitle">Vue.js实现的仿小米商城</h5>
+            <p class="card-text">使用Vue.js全家桶+ElementUI</p >
+            <button><a class="card-link" href="http://47.100.26.233:3001"
+                       target="_blank">立即查看</a ></button>
+            <a class="card-link" style="margin-left: 20px" href="https://github.com/manyuet/mall"
+               target="_blank">Github地址</a >
+        </div>
+    </div>
+    <div class="card" style="flex:1;width: 20rem;">
+        <div class="card-body">
+            <h4 class="card-title">番茄钟任务系统 <span class="badge success">vue.js</span></h4>
+            <h5 class="card-subtitle">基于番茄工作法的任务系统</h5>
+            <p class="card-text">我的毕业设计...（开发中）</p >
+            <button><a class="card-link" href="http://47.100.26.233:3003"
+                       target="_blank">立即查看</a ></button>
+            <a class="card-link" style="margin-left: 20px" href="https://github.com/manyuet/tomato-clock"
+               target="_blank">Github地址</a >
+        </div>
+    </div>
+</div>
 </body>
 
 </html>
